@@ -14,11 +14,14 @@ body {
 }
 
 .header {
+    margin-bottom: 76px;
     padding-top: 46px;
     background-color: #f1f1f1;
 }
 
 .header__nav {
+    margin-bottom: 76px;
+    
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -62,4 +65,29 @@ body {
 
 .nav__list-item.active {
     color: #606060;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__img {
+    width: 900px;
+}
+
+.header__heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header__content {
+    margin-top: 124px;
+    max-width: 500px;
+}
+
+.header__content p {
+    line-height: 2;
 }
