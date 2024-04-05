@@ -158,3 +158,64 @@ body {
     color: #000;
     text-decoration: underline;
 }
+
+.contacts{
+    padding: 90px 0 0;
+    text-align: center;
+}
+
+.contacts__title {
+    margin-bottom: 40px;
+}
+
+.contacts__content {
+    margin-bottom: 40px;
+
+    font-size: 18px;
+}
+
+.contacts__social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.contacts__btn {
+    margin-bottom: 80px;
+}
+
+.btn {
+    padding: 7px 22px;
+
+    font-size: 18px;
+
+    display: inline-block;
+
+    color: #fff;
+    background-color: #070707;
+
+    border-radius: 30px;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    background-color: #000;
+
+    position: relative;
+    top: 1px;
+}
+
+.contacts__social {
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+
+    background-color: #f1f1f1;
+}
