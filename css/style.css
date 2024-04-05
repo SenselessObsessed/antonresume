@@ -14,8 +14,8 @@ body {
 }
 
 .header {
-    margin-bottom: 76px;
     padding-top: 46px;
+
     background-color: #f1f1f1;
 }
 
@@ -42,9 +42,12 @@ body {
 .logo::after {
     content: "";
     display: block;
+
     width: 8px;
     height: 8px;
+
     background-color: #CD5C5C;
+
     border-radius: 50%;
 
     position: absolute;
@@ -79,6 +82,7 @@ body {
 
 .header__heading {
     margin-bottom: 20px;
+
     font-weight: 600;
     font-size: 44px;
 }
@@ -90,4 +94,67 @@ body {
 
 .header__content p {
     line-height: 2;
+}
+
+.services {
+    padding: 90px 0; 
+}
+
+.services__card-img {
+    margin-bottom: 30px;
+}
+
+.services__card-title {
+    margin-bottom: 10px;
+
+    font-weight: 600;
+    font-size: 24px;
+
+    text-transform: uppercase;
+}
+
+.services__card p {
+    line-height: 2;
+}
+
+.services__row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.portfolio {
+    padding: 90px 0;
+
+    background-color: #f1f1f1;
+}
+
+.title__main {
+    margin-bottom: 70px;
+
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project__img {
+    margin-bottom: 40px;
+
+    width: 950px;
+}
+
+.project__title {
+    font-size: 18px;
+}
+
+.project__title a {
+    color: #000;
+    text-decoration: underline;
 }
